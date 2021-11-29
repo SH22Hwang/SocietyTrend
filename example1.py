@@ -14,5 +14,5 @@ if response.status_code == 200:
     for title in titles:
         print(title.get_text())
 
-else :
+else:
     print(response.status_code)
